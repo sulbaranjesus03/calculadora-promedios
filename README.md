@@ -28,7 +28,7 @@ Una sencilla y amigable calculadora de promedios diseñada en Python que permite
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu_usuario/calculadora-promedios.git 
+git clone https://github.com/sulbaranjesus03/calculadora-promedios.git
 
 # Accede a la carpeta del proyecto
 cd calculadora-promedios
