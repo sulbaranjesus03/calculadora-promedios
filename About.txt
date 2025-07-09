@@ -1,0 +1,10 @@
+👤 Creador: Jesús Sulbaran.
+
+👤 Acerca del Creador
+
+Hola, soy Jesús Sulbaran, estudiante universitario en la Universidad Nacional Experimental Sur del Lago (UNESUR). Desde que descubrí el fascinante mundo de la programación, supe que quería dedicarme a construir soluciones útiles, creativas y llenas de lógica.
+
+Me apasiona escribir código, aprender nuevas tecnologías y enfrentar desafíos que me empujen a superarme. Esta calculadora de promedios es una muestra de ese entusiasmo por crear herramientas prácticas y mejorar mis habilidades día a día.
+
+¡Gracias por usarla y ser parte de este viaje!
+
