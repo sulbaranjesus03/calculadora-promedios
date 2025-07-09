@@ -67,4 +67,22 @@ python app.py
 
 - Versión con interfaz gráfica (GUI)
 
-- Soporte para varios usuarios o sesiones  
+- Soporte para varios usuarios o sesiones 
+
+---
+
+## 📝Titulos de las revisiones
+
+- feat: para nuevas funciones
+
+- fix: para correcciones de errores
+
+- docs: para cambios en documentación
+
+- style: para ajustes de estilo (sin afectar el código)
+
+- refactor: para mejoras en el código sin cambiar funcionalidad
+
+- test: para agregar o modificar pruebas
+
+- chore: para tareas generales de mantenimiento 
