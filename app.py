@@ -51,6 +51,21 @@ def showInstructions():
     4. El programa mostrará tu promedio final.
     ''')
 
+def showErrorBanner():
+    print('''
+     _________________________
+    |                         |
+    |   ⚠️   ERROR FATAL ⚠️     |
+    |_________________________|
+    |                         |
+    |  La opción ingresada no |
+    |  es válida. Por favor,  |
+    |  elige entre 1 y 4.     |
+    |_________________________|
+            (\__/) 
+            (•ㅅ•) 
+    ''')    
+
 def openAbout():
     try:
         with open("About.txt", "r", encoding="utf-8") as archivo:
@@ -70,7 +85,7 @@ def cleanConsole():
     else:
         os.system('clear') 
 
-def loadingBar(mensaje="🔄 Cargando", total=20, delay=0.1):
+def loadingBar(mensaje="🔄 Cargando", total=20, delay=0.05):
     print(mensaje)
     for i in range(total + 1):
         bar = "[" + "#" * i + "-" * (total - i) + "]"
@@ -96,7 +111,9 @@ def executeOption(option):
         print("👋 Gracias por usar la calculadora. ¡Hasta pronto!")
         exit()            
     else:
-        print("⚠️ Opcion invalida.")
+        # print("⚠️ Opcion invalida.")
+        showErrorBanner()
+        time.sleep(1.5)
 
     print('=' * 50)
     waitForUser()
