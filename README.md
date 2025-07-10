@@ -1,6 +1,6 @@
 # 📊 Calculadora de Promedios
 
-Una sencilla y amigable calculadora de promedios diseñada en Python que permite a los usuarios ingresar sus notas, calcular el promedio final y navegar por una interfaz de texto clara y animada.
+Una sencilla y amigable calculadora de promedios diseñada en Python que permite a los usuarios ingresar sus notas, calcular el promedio final y navegar por una interfaz de texto clara.
 
 ---
 
