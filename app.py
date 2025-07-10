@@ -111,7 +111,7 @@ def executeOption(option):
         print("👋 Gracias por usar la calculadora. ¡Hasta pronto!")
         exit()            
     else:
-        # print("⚠️ Opcion invalida.")
+        # print("⚠️ Opcion invalida. BY : JD")
         showErrorBanner()
         time.sleep(1.5)
 
