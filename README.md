@@ -51,6 +51,8 @@ python app.py
 
 - showInstructions(): Muestra las instrucciones de uso
 
+- showErrorBanner(): Muestra un banner cuando se ejecuta una opcion diferente a las determinadas
+
 - openAbout(): Muestra contenido del archivo About.txt
 
 - cleanConsole(): Limpia la consola según el sistema operativo
