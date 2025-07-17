@@ -33,12 +33,15 @@ def startCalculator():
             print("⚠️ Solo se permiten números o 'fin'.")
     
     if notas:
+        cleanConsole()
         promedio = sum(notas) / len(notas)
 
         print(f"\n✅ Promedio calculado: {round(promedio, 2)}")
         print(f'📊 Total de notas: {len(notas)}')
         print(f"📈 Nota maxima: {max(notas)}")
         print(f"📉 Nota minima: {min(notas)}")
+        showDescendingNotes(notas)
+
     else:
         print("⚠️ No se ingresaron notas.")    
 
@@ -64,7 +67,21 @@ def showErrorBanner():
     |_________________________|
             (\__/) 
             (•ㅅ•) 
-    ''')    
+    ''') 
+
+def showDescendingNotes(notas):
+    notasDescendente = sorted(notas,reverse=True)
+    notasInt = IntConvertList(notasDescendente)
+
+    for nota in notasInt:
+        print(f'\n🏫 Nota: {nota} {'⭐' * nota}')
+
+def IntConvertList(notasFloat):
+    lista_int = []
+
+    for numsFloat in notasFloat:
+        lista_int.append(int(numsFloat))
+    return lista_int       
 
 def openAbout():
     try:
