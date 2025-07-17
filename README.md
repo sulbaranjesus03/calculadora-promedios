@@ -53,6 +53,10 @@ python app.py
 
 - showErrorBanner(): Muestra un banner cuando se ejecuta una opcion diferente a las determinadas
 
+- showDescendingNotes(): Muestra de mayor a menor las notas
+
+- IntConvertList(): Convierte numeros de una lista de floats a integers 
+
 - openAbout(): Muestra contenido del archivo About.txt
 
 - cleanConsole(): Limpia la consola según el sistema operativo
