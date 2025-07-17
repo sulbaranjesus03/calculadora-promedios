@@ -43,7 +43,7 @@ def startCalculator():
         showDescendingNotes(notas)
 
     else:
-        print("⚠️ No se ingresaron notas.")    
+        print(" ⚠️ No se ingresaron notas.")    
 
 def showInstructions():
     print('''
@@ -73,6 +73,8 @@ def showDescendingNotes(notas):
     notasDescendente = sorted(notas,reverse=True)
     notasInt = IntConvertList(notasDescendente)
 
+    print("\n📚📉 Notas ordenadas (Mayor a menor):")
+    
     for nota in notasInt:
         print(f'\n🏫 Nota: {nota} {'⭐' * nota}')
 
@@ -81,7 +83,7 @@ def IntConvertList(notasFloat):
 
     for numsFloat in notasFloat:
         lista_int.append(int(numsFloat))
-    return lista_int       
+    return lista_int
 
 def openAbout():
     try:
